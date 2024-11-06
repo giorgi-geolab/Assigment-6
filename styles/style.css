@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.roboto {
+  font-family: "Roboto", serif;
+}
+
+/* heading */
+
+header {
+  max-width: 1165px;
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+  top: 21px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 33px;
+}
+
+.header-texts {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 12.89px;
+  margin-right: 35px;
+  color: #000000;
+}
+
+#first-img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
